@@ -38,3 +38,34 @@
     height: 2rem;
     margin-top: 1rem;
 }
+
+.blur{
+    position: absolute;
+    width: 22rem;
+    border-radius: 50%;
+    height: 14rem;
+    background: #edd0ff;
+    filter: blur(212px);
+    z-index: -9;
+    top: -15%;
+    left: 56%;
+    filter: blur(72px);
+}
+
+.cards{
+    position: relative;
+}
+
+.cards>*{
+    position: absolute;
+}
+
+.sBlur{
+    top: 13rem;
+    left: -18rem;
+}
+
+.sBlur2{
+    top: 14rem;
+    left: 8rem;
+}
