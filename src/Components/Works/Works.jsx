@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Works.module.css'
+import stock from '../../styles/button.module.css'
 import Upwork from '../../img/Upwork.png'
 import Fiverr from '../../img/fiverr.png'
 import Amazon from '../../img/amazon.png'
@@ -22,11 +23,31 @@ const Works = () => {
                     <br />
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ea 
                 </span>
-                {/* <button className={`${stock.button} ${s.sButton}`}>Download CV</button> */}
+                <button className={`${stock.button} ${s.sButton}`}>Hire Me</button>
                 <div className={`${s.blur} ${s.sBlur}`} style={{background:'#ABF1FF94'}}/>
                 </div>
+                <div className={s.wRight}>
+                    <div className={s.wMainCircle}>
+                        <div className={s.wSecCircle}>
+                            <img src={Upwork} alt="" />
+                        </div>
+                        <div className={s.wSecCircle}>
+                            <img src={Fiverr} alt="" />
+                        </div>
+                        <div className={s.wSecCircle}>
+                            <img src={Shopify} alt="" />
+                        </div>
+                        <div className={s.wSecCircle}>
+                            <img src={Facebook} alt="" />
+                        </div>
+                        <div className={s.wSecCircle}>
+                            <img src={Amazon} alt="" />
+                        </div>
+                    </div>
+                    <div className={`${s.wBackCircle} ${s.blueCircle}`}></div>
+                    <div className={`${s.wBackCircle} ${s.yellowCircle}`}></div>
+                </div>
 
-                
         </div>
     );
 };
