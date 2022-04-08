@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Navbar.module.css'
+import stock from './../../styles/button.module.css'
 
 const Navbar = () => {
     return (
@@ -18,7 +19,7 @@ const Navbar = () => {
                        <li>Testimonials</li>
                    </ul>
                </div>
-               <button className={s.button}>
+               <button className={`${stock.button} ${s.nButton}`}>
                    Contact us
                </button>
            </div>

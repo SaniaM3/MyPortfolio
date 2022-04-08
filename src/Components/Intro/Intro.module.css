@@ -1,0 +1,47 @@
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+.iLeft{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+.iName{
+    display: flex;
+    flex-direction: column;   
+}
+
+.iName>:nth-child(1)
+{
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.iName>:nth-child(2)
+{
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.iName>:nth-child(3)
+{
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--gray);
+    margin-top: 10px;
+}
+
+.iButton{
+    width: 6rem;
+    height: 2rem;
+}
+
+.iRight{
+    flex: 1;
+}
