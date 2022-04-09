@@ -1,13 +1,14 @@
 import React from 'react';
 import s from './Navbar.module.css'
 import stock from './../../styles/button.module.css'
+import Toogle from '../Toogle/Toogle';
 
 const Navbar = () => {
     return (
         <div className={s.nWrapper}>
            <div className={s.nLeft}>
                <div className={s.nName}>Alexander</div>
-               <span>toggle</span>
+               <Toogle />
            </div>
            <div className={s.nRight}>
                <div className={s.nList}>
